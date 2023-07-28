@@ -1,7 +1,7 @@
-const predoader = document.querySelector('.preloder');
+const preloader = document.querySelector('.preloder');
 
-predoader.classList.add('active');
+preloader.classList.add('active');
 
 setTimeout(() => {
-    predoader.classList.remove('active');
+    preloader.classList.remove('active');
 }, 500)
